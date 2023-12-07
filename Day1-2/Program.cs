@@ -22,7 +22,7 @@ numberDict.Add("seven", 7);
 numberDict.Add("eight", 8);
 numberDict.Add("nine", 9);
 
-var sr = new StreamReader(@"C:\Users\lachn\Documents\Projects\AdventOfCode2023\Day1-2\Data\input.txt");
+var sr = new StreamReader(@"..\..\..\Data\input.txt");
 string pattern = "(?=([0-9]|one|two|three|four|five|six|seven|eight|nine))";
 
 int firstDigit;

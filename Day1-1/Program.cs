@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-var sr = new StreamReader(@"C:\Users\lachn\Documents\Projects\AdventOfCode2023\Day1-1\Data\input.txt");
+var sr = new StreamReader(@"..\..\..\Data\input.txt");
 
 var stopWatch = new Stopwatch();
 stopWatch.Start();
